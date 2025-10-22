@@ -1,4 +1,4 @@
-package br.com.mpi.hello_world_service;
+package com.mpi.hello_world_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.mpi.hello_world_service.controller.HelloWorldController;
 
-@WebMvcTest(AloMundoController.class) // Especifica que queremos testar apenas a camada web (nosso controller)
+@WebMvcTest(HelloWorldController.class) // Especifica que quero testar apenas a camada web (nosso
+// controller)
 class AloMundoServiceApplicationTests {
 
 	@Autowired
