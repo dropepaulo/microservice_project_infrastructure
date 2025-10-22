@@ -8,7 +8,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import br.com.mpi.hello_world_service.controller.HelloWorldController;
+import com.mpi.hello_world_service.controller.HelloWorldController;
 
 @WebMvcTest(AloMundoController.class) // Especifica que queremos testar apenas a camada web (nosso controller)
 class AloMundoServiceApplicationTests {
